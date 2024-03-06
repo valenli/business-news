@@ -16,7 +16,7 @@ const NewsBoard = ({category}) => {
         Business <span className="badge bg-danger">News</span>
       </h2>
       {articles.map((news,index)=>{
-        return <NewsItem key={index} title={news.title} description={news.description} src={news.urlToImage} url={news.url}/>
+        return <NewsItem key={index} title={news.title}  src={news.urlToImage} url={news.url}/>
       })}
     </div>
   );
