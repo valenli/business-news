@@ -1,7 +1,7 @@
 import NewsInstead from '../assets/News.png'
 import React from "react";
 
-const NewsItem = ({ title, description, src, url }) => {
+const NewsItem = ({ title, description, url }) => {
   return (
     <div
       className="card bg-dark text-light mb-3 d-inline-block my-3 mx-3 px-2 py-2"
